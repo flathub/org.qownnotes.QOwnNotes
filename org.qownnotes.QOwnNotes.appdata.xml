@@ -45,7 +45,8 @@
   </content_rating>
 
   <releases>
-	  <release version="18.06.2" data="2018-06-12" type="stable" timestamp="1528761600" />
+	  <release version="18.06.5" date="2018-06-20" type="stable" />
+	  <release version="18.06.2" date="2018-06-12" type="stable" timestamp="1528761600" />
 	  <release version="18.06.0" date="2018-06-02" type="stable" />
   </releases>
 
