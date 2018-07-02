@@ -1,45 +1,43 @@
 {
-	"app-id": "org.qownnotes.QOwnNotes",
-	"runtime": "org.kde.Platform",
-	"runtime-version": "5.10",
-	"sdk": "org.kde.Sdk",
-	"command": "QOwnNotes",
-	"rename-desktop-file": "PBE.QOwnNotes.desktop",
-	"rename-icon": "QOwnNotes",
-	"finish-args": [
-		"--socket=wayland",
-		"--socket=x11",
-		"--share=ipc",
-		"--share=network",
-		"--filesystem=home",
-		"--device=dri"
-	],
-	"modules": [
-		{
-			"name": "QOwnNotes",
-			"buildsystem": "qmake",
-			"subdir": "src",
-			"sources": [
-				{
-					"type": "git",
-					"url": "https://github.com/pbek/QOwnNotes",
-					"tag": "linux-b3647-205137",
-					"commit": "3bd3b0dc575775f0164249a808522e5e4ad2f776"
-				}
-			]
-		},
-		{
-			"name": "appdata",
-			"buildsystem": "simple",
-			"build-commands": [
-				"install -Dm644 org.qownnotes.QOwnNotes.appdata.xml /app/share/appdata/org.qownnotes.QOwnNotes.appdata.xml"
-			],
-			"sources": [
-				{
-					"type": "file",
-					"path": "org.qownnotes.QOwnNotes.appdata.xml"
-				}
-			]
-		}
-	]
+  "app-id": "org.qownnotes.QOwnNotes",
+  "runtime": "org.kde.Platform",
+  "runtime-version": "5.10",
+  "sdk": "org.kde.Sdk",
+  "command": "QOwnNotes",
+  "rename-desktop-file": "PBE.QOwnNotes.desktop",
+  "rename-icon": "QOwnNotes",
+  "finish-args": [
+    "--socket=wayland",
+    "--socket=x11",
+    "--share=ipc",
+    "--share=network",
+    "--filesystem=home",
+    "--device=dri"
+  ],
+  "modules": [
+    {
+      "name": "QOwnNotes",
+      "buildsystem": "qmake",
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-18.07.0.tar.xz",
+          "sha256": "39e68a6bef4b3735ea500887107ca2d4f963a483bbb62132e6b80008365c87e2"
+        }
+      ]
+    },
+    {
+      "name": "appdata",
+      "buildsystem": "simple",
+      "build-commands": [
+        "install -Dm644 org.qownnotes.QOwnNotes.appdata.xml /app/share/appdata/org.qownnotes.QOwnNotes.appdata.xml"
+      ],
+      "sources": [
+        {
+          "type": "file",
+          "path": "org.qownnotes.QOwnNotes.appdata.xml"
+        }
+      ]
+    }
+  ]
 }
