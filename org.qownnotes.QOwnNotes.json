@@ -1,7 +1,7 @@
 {
   "app-id": "org.qownnotes.QOwnNotes",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.10",
+  "runtime-version": "5.11",
   "sdk": "org.kde.Sdk",
   "command": "QOwnNotes",
   "rename-desktop-file": "PBE.QOwnNotes.desktop",
@@ -21,8 +21,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-18.07.2.tar.xz",
-          "sha256": "996cb010d540879e76457460fc945959235291aa1660bd221c87a952cba6ea93"
+          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-18.07.3.tar.xz",
+          "sha256": "14c1fa44af639bff26cc52963d8e922499cb96ba75f5ab50d9dbbf5ecb5134cf"
         }
       ]
     },
