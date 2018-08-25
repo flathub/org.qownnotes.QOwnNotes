@@ -39,6 +39,9 @@
   </content_rating>
   <releases>
     <release version="18.08.8" date="2018-08-25T12:04:38Z" type="stable"></release>
+    <release version="18.08.5" date="2018-08-18T09:37:27Z" type="stable"></release>
+    <release version="18.08.4" date="2018-08-18T09:37:27Z" type="stable"></release>
+    <release version="18.08.3" date="2018-08-11T14:39:05Z" type="stable"></release>
     <release version="18.08.0" date="2018-08-02T18:36:52Z" type="stable"></release>
     <release version="18.07.3" date="2018-07-17T18:25:11Z" type="stable"></release>
     <release version="18.07.2" date="2018-07-06T09:55:49Z" type="stable"></release>
