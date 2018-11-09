@@ -38,6 +38,7 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="18.11.1" date="2018-11-07T16:48:14Z" type="stable"></release>
     <release version="18.09.4" date="2018-09-26T11:11:53Z" type="stable"></release>
     <release version="18.09.2" date="2018-09-19T16:11:14Z" type="stable"></release>
     <release version="18.09.1" date="2018-09-09T07:54:37Z" type="stable"></release>
