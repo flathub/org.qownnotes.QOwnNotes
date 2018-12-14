@@ -39,6 +39,24 @@
           "path": "org.qownnotes.QOwnNotes.appdata.xml"
         }
       ]
+    },
+    {
+      "name": "git",
+      "make-args": [
+        "NO_TCLTK=YesPlease",
+        "NO_INSTALL_HARDLINKS=YesPlease"
+      ],
+      "make-install-args": [
+        "NO_TCLTK=YesPlease",
+        "NO_INSTALL_HARDLINKS=YesPlease"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://www.kernel.org/pub/software/scm/git/git-2.19.2.tar.xz",
+          "sha256": "fce9a3a3297db5f3756c4553a2fc1fec209ee08178f8491e76ff4ff8fe7b8be9"
+        }
+      ]
     }
   ]
 }
