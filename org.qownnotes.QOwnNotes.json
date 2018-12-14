@@ -22,8 +22,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-18.12.3.tar.xz",
-          "sha256": "e658240fd5d8e9574258c2faf4fb3ce55a019b7c188786627eba61485f4dcdc7"
+          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-18.12.4.tar.xz",
+          "sha256": "eb992844386bc0df094271500debdd8356fe6af1c96847a90a21bf10468f09dc"
         }
       ]
     },
@@ -42,14 +42,6 @@
     },
     {
       "name": "git",
-      "make-args": [
-        "NO_TCLTK=YesPlease",
-        "NO_INSTALL_HARDLINKS=YesPlease"
-      ],
-      "make-install-args": [
-        "NO_TCLTK=YesPlease",
-        "NO_INSTALL_HARDLINKS=YesPlease"
-      ],
       "sources": [
         {
           "type": "archive",
