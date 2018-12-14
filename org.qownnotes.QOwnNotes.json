@@ -12,7 +12,8 @@
     "--share=ipc",
     "--share=network",
     "--filesystem=home",
-    "--device=dri"
+    "--device=dri",
+    "--talk-name=org.kde.StatusNotifierWatcher"
   ],
   "modules": [
     {
