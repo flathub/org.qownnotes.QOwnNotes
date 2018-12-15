@@ -37,6 +37,10 @@
     <content_attribute id="money-purchasing">none</content_attribute>
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
+  <launchable type="desktop-id">org.qownnotes.QOwnNotes.desktop</launchable>
+  <provides>
+    <binary>QOwnNotes</binary>
+  </provides>
   <releases>
     <release version="18.12.4" date="2018-12-14T19:02:55Z" type="stable"></release>
     <release version="18.12.3" date="2018-12-11T17:23:28Z" type="stable"></release>
