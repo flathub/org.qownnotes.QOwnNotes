@@ -22,8 +22,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-18.12.8.tar.xz",
-          "sha256": "2d02c297420cd9028103260de645076267d4949e286028f23b6c0958052fe3c9"
+          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-18.12.9.tar.xz",
+          "sha256": "e50741f38111004c8a34f1f379ec90ed680986897bf2c68f0e0ed91fa5e6fe88"
         }
       ]
     },
