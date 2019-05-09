@@ -42,11 +42,17 @@
     },
     {
       "name": "git",
+      "make-args": [
+        "INSTALL_SYMLINKS=1"
+      ],
+      "make-install-args": [
+        "INSTALL_SYMLINKS=1"
+      ],
       "sources": [
         {
           "type": "archive",
-          "url": "https://www.kernel.org/pub/software/scm/git/git-2.19.2.tar.xz",
-          "sha256": "fce9a3a3297db5f3756c4553a2fc1fec209ee08178f8491e76ff4ff8fe7b8be9"
+          "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.21.0.tar.xz",
+          "sha256": "8ccb1ce743ee991d91697e163c47c11be4bf81efbdd9fb0b4a7ad77cc0020d28"
         }
       ]
     }
