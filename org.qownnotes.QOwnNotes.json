@@ -22,8 +22,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-19.5.2.tar.xz",
-          "sha256": "1578b965706d891c7a73424d3ad92ad1b7f4a48e3084874c0ef402bd153426fb"
+          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-19.5.3.tar.xz",
+          "sha256": "39fece16bfc0d650844ad6b867770523fc23741f1e62e28e32fa136c7f8bc536"
         }
       ]
     },
@@ -42,12 +42,6 @@
     },
     {
       "name": "git",
-      "make-args": [
-        "INSTALL_SYMLINKS=1"
-      ],
-      "make-install-args": [
-        "INSTALL_SYMLINKS=1"
-      ],
       "sources": [
         {
           "type": "archive",
