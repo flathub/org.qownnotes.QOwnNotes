@@ -42,6 +42,12 @@
     },
     {
       "name": "git",
+      "make-args": [
+        "INSTALL_SYMLINKS=1"
+      ],
+      "make-install-args": [
+        "INSTALL_SYMLINKS=1"
+      ],
       "sources": [
         {
           "type": "archive",
