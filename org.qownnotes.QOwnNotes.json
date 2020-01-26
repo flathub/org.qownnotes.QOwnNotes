@@ -23,8 +23,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-20.1.16.tar.xz",
-          "sha256": "9fb34a80dcd39eae11fde0e95fd29865eb4af063475fe6205a8ca06396cbb467"
+          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-20.1.17.tar.xz",
+          "sha256": "e443734bc30aacbb3866f5aa92bd155e8b554325ba0822e0e7f2a777d254f087"
         }
       ]
     },
