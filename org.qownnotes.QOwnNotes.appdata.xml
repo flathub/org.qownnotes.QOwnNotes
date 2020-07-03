@@ -38,6 +38,7 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="20.7.1" date="2020-07-03T13:15:09Z" type="stable"></release>
     <release version="20.7.0" date="2020-07-02T17:06:51Z" type="stable"></release>
     <release version="20.6.11" date="2020-06-27T08:17:13Z" type="stable"></release>
     <release version="20.6.10" date="2020-06-25T17:23:01Z" type="stable"></release>
