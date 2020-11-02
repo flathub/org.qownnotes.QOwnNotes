@@ -38,6 +38,7 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="20.11.1" date="" type="stable"></release>
     <release version="20.11.0" date="" type="stable"></release>
     <release version="20.10.11" date="" type="stable"></release>
     <release version="20.10.10" date="" type="stable"></release>
