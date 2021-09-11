@@ -23,8 +23,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-21.9.1.tar.xz",
-          "sha256": "37253a365b8a4eafb6e2196bc88ae72febf5b455e4baa9be854a8bd03af696cb"
+          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-21.9.2.tar.xz",
+          "sha256": "47e6973e743636cd83f0f053bda7a1f21b778ee6598592486f9d80f02551b452"
         }
       ]
     },
@@ -52,8 +52,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.28.0.tar.xz",
-          "sha256": "dfa5d1a253aa451465478fe45c6a40ab8605b340fdb4c4e80b16d7f87708439d"
+          "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.33.0.tar.xz",
+          "sha256": "bf3c6ab5f82e072aad4768f647cfb1ef60aece39855f83f080f9c0222dd20c4f"
         }
       ]
     }
