@@ -1,67 +1,67 @@
 {
-  "app-id": "org.qownnotes.QOwnNotes",
-  "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-21.08",
-  "sdk": "org.kde.Sdk",
-  "command": "QOwnNotes",
-  "rename-desktop-file": "PBE.QOwnNotes.desktop",
-  "rename-icon": "QOwnNotes",
-  "finish-args": [
-    "--socket=wayland",
-    "--socket=x11",
-    "--share=ipc",
-    "--share=network",
-    "--filesystem=home",
-    "--device=dri",
-    "--talk-name=org.kde.StatusNotifierWatcher",
-    "--own-name=org.kde.StatusNotifierItem-3-1"
-  ],
-  "modules": [
-    {
-      "name": "QOwnNotes",
-      "buildsystem": "qmake",
-      "sources": [
+    "app-id": "org.qownnotes.QOwnNotes",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "5.15-21.08",
+    "sdk": "org.kde.Sdk",
+    "command": "QOwnNotes",
+    "rename-desktop-file": "PBE.QOwnNotes.desktop",
+    "rename-icon": "QOwnNotes",
+    "finish-args": [
+        "--socket=wayland",
+        "--socket=x11",
+        "--share=ipc",
+        "--share=network",
+        "--filesystem=home",
+        "--device=dri",
+        "--talk-name=org.kde.StatusNotifierWatcher",
+        "--own-name=org.kde.StatusNotifierItem-3-1"
+    ],
+    "modules": [
         {
-          "type": "archive",
-          "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-21.11.10.tar.xz",
-          "sha256": "70c231e9bf045b36e695915722da673a7baf03c1a17b704a3a4b050dfc6548cb",
+            "name": "QOwnNotes",
+            "buildsystem": "qmake",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-21.12.1.tar.xz",
+                    "sha256": "813c6ddd4dbfc7754c59853d71be453d1bea7b3767d8ae95198c042818b9c459",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://download.tuxfamily.org/qownnotes/src/",
                         "pattern": "(qownnotes-([\\d\\.]+).tar.xz)",
                         "is-main-source": true
                     }
-        }
-      ]
-    },
-    {
-      "name": "appdata",
-      "buildsystem": "simple",
-      "build-commands": [
-        "install -Dm644 org.qownnotes.QOwnNotes.appdata.xml /app/share/appdata/org.qownnotes.QOwnNotes.appdata.xml"
-      ],
-      "sources": [
+                }
+            ]
+        },
         {
-          "type": "file",
-          "path": "org.qownnotes.QOwnNotes.appdata.xml"
-        }
-      ]
-    },
-    {
-      "name": "git",
-      "make-args": [
-        "INSTALL_SYMLINKS=1"
-      ],
-      "make-install-args": [
-        "INSTALL_SYMLINKS=1"
-      ],
-      "sources": [
+            "name": "appdata",
+            "buildsystem": "simple",
+            "build-commands": [
+                "install -Dm644 org.qownnotes.QOwnNotes.appdata.xml /app/share/appdata/org.qownnotes.QOwnNotes.appdata.xml"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "path": "org.qownnotes.QOwnNotes.appdata.xml"
+                }
+            ]
+        },
         {
-          "type": "archive",
-          "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.33.1.tar.xz",
-          "sha256": "e054a6e6c2b088bd1bff5f61ed9ba5aa91c9a3cd509539a4b41c5ddf02201f2f"
+            "name": "git",
+            "make-args": [
+                "INSTALL_SYMLINKS=1"
+            ],
+            "make-install-args": [
+                "INSTALL_SYMLINKS=1"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.33.1.tar.xz",
+                    "sha256": "e054a6e6c2b088bd1bff5f61ed9ba5aa91c9a3cd509539a4b41c5ddf02201f2f"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
