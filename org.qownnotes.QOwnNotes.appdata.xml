@@ -38,6 +38,7 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
+    <release version="22.10.2" date="2022-10-20"/>
     <release version="22.10.1" date="2022-10-11"/>
     <release version="22.10.0" date="2022-10-06"/>
     <release version="22.9.2" date="2022-09-27"/>
