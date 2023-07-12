@@ -29,7 +29,7 @@
                         "type": "json",
                         "url": "https://api.github.com/repos/pbek/QOwnNotes/releases/latest",
                         "version-query": ".tag_name",
-                        "url-query": ".assets | first | .browser_download_url"
+                        "url-query": ".assets | first | .browser_download_url",
                         "is-main-source": true
                     }
                 }
