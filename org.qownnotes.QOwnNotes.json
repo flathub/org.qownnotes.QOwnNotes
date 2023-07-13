@@ -23,8 +23,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.tuxfamily.org/qownnotes/src/qownnotes-23.6.6.tar.xz",
-                    "sha256": "517127a1ef13a2fce084ab445c38ace4693dde80c4c8986135732719a2b95572",
+                    "url": "https://github.com/pbek/QOwnNotes/releases/download/v23.7.2/qownnotes-23.7.2.tar.xz",
+                    "sha256": "0e354b7cfead50c505247672048322bea6e38aa81079c5bbf186cba1b3a75e73",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/pbek/QOwnNotes/releases/latest",
