@@ -28,7 +28,7 @@
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/pbek/QOwnNotes/releases/latest",
-                        "version-query": ".tag_name",
+                        "version-query": ".tag_name | sub(\"^v\"; \"\")",
                         "url-query": ".assets[] | select(.browser_download_url | capture(\"qownnotes-(?<n>[0-9.]+).tar.xz$\")) | .browser_download_url",
                         "is-main-source": true
                     }
