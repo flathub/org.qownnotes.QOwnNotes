@@ -13,8 +13,7 @@
         "--share=network",
         "--filesystem=home",
         "--device=dri",
-        "--talk-name=org.kde.StatusNotifierWatcher",
-        "--own-name=org.kde.*"
+        "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "modules": [
         {
