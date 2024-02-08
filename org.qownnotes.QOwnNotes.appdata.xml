@@ -4,7 +4,7 @@
   <metadata_license>FSFAP</metadata_license>
   <project_license>GPL-2.0+</project_license>
   <name>QOwnNotes</name>
-  <summary>Plain-text file notepad with Markdown support and Nextcloud / ownCloud integration</summary>
+  <summary>Plain-text file notepad with Markdown support and Nextcloud integration</summary>
   <description>
     <p>QOwnNotes is the open source (GPL) plain-text file notepad with Markdown support and todo list manager for GNU/Linux, Mac OS X and Windows by Patrizio Bekerle, that (optionally) works together with the notes application of ownCloud or Nextcloud.</p>
   </description>
@@ -14,6 +14,7 @@
       <image>https://raw.githubusercontent.com/pbek/QOwnNotes/main/screenshots/screenshot.png</image>
     </screenshot>
   </screenshots>
+  <developer_name>Patrizio Bekerle</developer_name>
   <url type="homepage">https://www.qownnotes.org/</url>
   <content_rating type="oars-1.0">
     <content_attribute id="violence-cartoon">none</content_attribute>
