@@ -5,10 +5,14 @@
   <project_license>GPL-2.0+</project_license>
   <name>QOwnNotes</name>
   <launchable type="desktop-id">org.qownnotes.QOwnNotes.desktop</launchable>
-  <summary>Plain-text file notepad with Markdown support and Nextcloud integration</summary>
+  <summary>Plain-text file Markdown notepad</summary>
   <description>
     <p>QOwnNotes is the open source (GPL) plain-text file notepad with Markdown support and todo list manager for GNU/Linux, Mac OS X and Windows by Patrizio Bekerle, that (optionally) works together with the notes application of ownCloud or Nextcloud.</p>
   </description>
+  <branding>
+    <color type="primary" scheme_preference="light">#eff0f1</color>
+    <color type="primary" scheme_preference="dark">#302f2f</color>
+  </branding>
   <screenshots>
     <screenshot type="default">
       <caption>QOwnNotes main screen</caption>
