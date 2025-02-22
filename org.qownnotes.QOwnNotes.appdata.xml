@@ -44,8 +44,11 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <releases>
-    <release version="25.2.7" date="2025-02-16">
+    <release version="25.2.8" date="2025-02-22">
       <description></description>
+    </release>
+    <release version="25.2.7" date="2025-02-16">
+      <description/>
     </release>
     <release version="25.2.5" date="2025-02-13">
       <description/>
