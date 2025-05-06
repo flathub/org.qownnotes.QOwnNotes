@@ -7,7 +7,6 @@
     "rename-desktop-file": "PBE.QOwnNotes.desktop",
     "rename-icon": "QOwnNotes",
     "finish-args": [
-        "--socket=wayland",
         "--socket=fallback-x11",
         "--share=ipc",
         "--share=network",
