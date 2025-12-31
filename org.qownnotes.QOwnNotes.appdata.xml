@@ -21,6 +21,8 @@
   </screenshots>
   <developer_name>Patrizio Bekerle</developer_name>
   <url type="homepage">https://www.qownnotes.org/</url>
+  <url type="bugtracker">https://github.com/pbek/QOwnNotes/issues</url>
+  <url type="vcs-browser">https://github.com/pbek/QOwnNotes</url>
   <content_rating type="oars-1.0"/>
   <releases>
     <release version="26.1.1" date="2025-12-31">
