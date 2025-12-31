@@ -19,7 +19,9 @@
       <image>https://raw.githubusercontent.com/pbek/QOwnNotes/main/screenshots/screenshot.png</image>
     </screenshot>
   </screenshots>
-  <developer_name>Patrizio Bekerle</developer_name>
+  <developer id="org.qownnotes">
+    <name>Patrizio Bekerle</name>
+  </developer>
   <url type="homepage">https://www.qownnotes.org/</url>
   <url type="bugtracker">https://github.com/pbek/QOwnNotes/issues</url>
   <url type="vcs-browser">https://github.com/pbek/QOwnNotes</url>
