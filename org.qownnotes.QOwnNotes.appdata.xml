@@ -27,8 +27,11 @@
   <url type="vcs-browser">https://github.com/pbek/QOwnNotes</url>
   <content_rating type="oars-1.1"/>
   <releases>
-    <release version="26.4.15" date="2026-04-16">
+    <release version="26.4.16" date="2026-04-18">
       <description></description>
+    </release>
+    <release version="26.4.15" date="2026-04-16">
+      <description/>
     </release>
     <release version="26.4.14" date="2026-04-15">
       <description/>
