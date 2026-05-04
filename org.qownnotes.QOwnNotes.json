@@ -22,8 +22,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/pbek/QOwnNotes/releases/download/v26.4.17/qownnotes-26.4.17.tar.xz",
-                    "sha256": "95797d94a763d7b5d112fd3b0e22338374b68ed62b7b35ad1da0421d51507732",
+                    "url": "https://github.com/pbek/QOwnNotes/releases/download/v26.5.1/qownnotes-26.5.1.tar.xz",
+                    "sha256": "1c294f1765e4f66b89c71f6dd4e1ea17eb9ed086cad8dbf0a2f23082856e58bc",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/pbek/QOwnNotes/releases/latest",
@@ -58,8 +58,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.53.0.tar.xz",
-                    "sha256": "5818bd7d80b061bbbdfec8a433d609dc8818a05991f731ffc4a561e2ca18c653",
+                    "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.54.0.tar.xz",
+                    "sha256": "f689162364c10de79ef89aa8dbf48731eb057e34edbbd20aca510ce0154681a3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5350,
