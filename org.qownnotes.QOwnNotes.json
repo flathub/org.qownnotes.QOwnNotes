@@ -22,8 +22,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/pbek/QOwnNotes/releases/download/v26.5.7/qownnotes-26.5.7.tar.xz",
-                    "sha256": "2763060a5a57f10d9ba5e0ce8ef3b080a52d028c013b400f2a3a1365d7cb0272",
+                    "url": "https://github.com/pbek/QOwnNotes/releases/download/v26.5.8/qownnotes-26.5.8.tar.xz",
+                    "sha256": "d4145ba786d3d3d44f8ddd0e4bf63f8ff9bb25f283c4b62f94f66fee52954787",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/pbek/QOwnNotes/releases/latest",
