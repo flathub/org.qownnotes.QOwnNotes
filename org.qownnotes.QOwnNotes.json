@@ -50,10 +50,12 @@
         {
             "name": "git",
             "make-args": [
-                "INSTALL_SYMLINKS=1"
+                "INSTALL_SYMLINKS=1",
+                "NO_RUST=1"
             ],
             "make-install-args": [
-                "INSTALL_SYMLINKS=1"
+                "INSTALL_SYMLINKS=1",
+                "NO_RUST=1"
             ],
             "sources": [
                 {
